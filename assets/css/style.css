@@ -11762,10 +11762,10 @@ ul.minicart-pricing-box li:last-child {
   border-bottom: 1px solid #ff5151;
 }
 
-/* .single-product-wrap .product-image img{
+.single-product-wrap .product-image img{
   min-height: 340px;
  max-height: 340px;
-} */
+}
 .single-product-wrap:hover a:before {
   opacity: 1;
   -ms-filter: 1;
@@ -11883,9 +11883,10 @@ ul.minicart-pricing-box li:last-child {
     06. Testimonial
 --------------------*/
 .testimonial-bg {
-background-color: #A27DB2;
-  background-size: cover;
-  background-repeat: no-repeat;
+
+background:linear-gradient(0deg, rgba(209, 201, 205, 0.103), rgba(230, 224, 227, 0.521)), url(../images/banner/slider-6.jpg);
+  background-size:cover;
+  background-position:top;
 }
 
 .content-testimonial {
@@ -14621,3 +14622,14 @@ justify-content: space-between;*/
 .about-us-area img{
   max-height: 300px;
 }
+
+
+
+/* My Custom Css  */
+
+/* button.slick-prev.slick-arrow {
+  display: none !important;
+}
+button.slick-next.slick-arrow {
+  display: none !important;
+} */
