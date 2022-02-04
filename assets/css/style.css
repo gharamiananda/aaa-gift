@@ -14423,7 +14423,7 @@ justify-content: space-between;*/
   20. Project Conunt Css  
 -----------------------*/
 .project-count-bg {
-  background: url(../images/bg/counter-bg.jpg);
+background-color: #fff ;
   background-size: cover;
   background-repeat: no-repeat;
 }
