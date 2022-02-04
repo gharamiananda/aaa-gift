@@ -14640,3 +14640,9 @@ justify-content: space-between;*/
 button.slick-next.slick-arrow {
   display: none !important;
 } */
+
+
+
+.main-content-wrap.section-ptb.product-details-page {
+  background-color: #ebedf3;
+}
