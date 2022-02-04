@@ -12945,7 +12945,7 @@ background:linear-gradient(0deg, rgba(209, 201, 205, 0.103), rgba(230, 224, 227,
     10. Footer Css
 -------------------------*/
 .footer-top {
-  background: #f6f6f6;
+  background: #e9e5eb;
 }
 
 .widget-footer .footer-logo {
@@ -14503,7 +14503,7 @@ justify-content: space-between;*/
     21. Contact css
 -----------------------*/
 .page-content{
-  background-color: #EDE5F8;
+  
 }
 .contact-form-info {
   padding: 20px 50px 20px 0;
@@ -14644,5 +14644,5 @@ button.slick-next.slick-arrow {
 
 
 .main-content-wrap.section-ptb.product-details-page {
-  background-color: #ebedf3;
+ 
 }
