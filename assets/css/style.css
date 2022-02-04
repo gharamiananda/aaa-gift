@@ -8696,8 +8696,9 @@ img.mfp-img {
     - Breadcrumb Css
 ------------------------------------------*/
 .breadcrumb-area {
-  background: url("../images/bg/breadcrumb-bg.jpg") repeat scroll 0 0;
+  background: url("../images/banner/banner-001.jpg") repeat scroll 0 0;
   text-align: center;
+  background-size: contain;
 }
 .breadcrumb-area h2 {
   font-size: 30px;
@@ -11282,7 +11283,7 @@ ul.minicart-pricing-box li:last-child {
 
 .hero-slider-one .single-slide {
   align-items: center;
-  background-position: center center;
+  background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
   display: -webkit-box;
@@ -11295,7 +11296,7 @@ ul.minicart-pricing-box li:last-child {
 }
 
 .hero-slider-one .single-slide::before {
-  background: rgba(233, 225, 225, 0.918);
+ background-color: rgba(2, 0, 0, 0.068); 
   content: '';
   height: 100%;
   width: 100%;
@@ -11333,7 +11334,7 @@ ul.minicart-pricing-box li:last-child {
   background-color: rgba(0, 0, 0, 0.2);
   border: medium none;
   border-radius: 100px;
-  color: #ffffff;
+  color: #131212;
   height: 60px;
   position: absolute;
   top: 50%;
@@ -11347,7 +11348,7 @@ ul.minicart-pricing-box li:last-child {
   transition: 0.4s;
 }
 .hero-slider-one .slick-arrow:hover {
-  background-color: #ff5151;
+  background-color: #ffffff;
 }
 @media only screen and (max-width: 479px), only screen and (max-width: 767px) {
   .hero-slider-one .slick-arrow {
@@ -11763,8 +11764,9 @@ ul.minicart-pricing-box li:last-child {
 }
 
 .single-product-wrap .product-image img{
-  min-height: 340px;
- max-height: 340px;
+ height: 340px;
+ width: 100%;
+object-fit: cover;
 }
 .single-product-wrap:hover a:before {
   opacity: 1;
@@ -11884,9 +11886,10 @@ ul.minicart-pricing-box li:last-child {
 --------------------*/
 .testimonial-bg {
 
-background:linear-gradient(0deg, rgba(209, 201, 205, 0.103), rgba(230, 224, 227, 0.521)), url(../images/banner/slider-6.jpg);
+background:linear-gradient(0deg, rgba(209, 201, 205, 0.103), rgba(230, 224, 227, 0.521)), url(../images/product/testimonial.jpg);
   background-size:cover;
-  background-position:top;
+  background-position:bottom;
+  z-index: -6;
 }
 
 .content-testimonial {
@@ -11898,7 +11901,7 @@ background:linear-gradient(0deg, rgba(209, 201, 205, 0.103), rgba(230, 224, 227,
 .content-testimonial::after {
   position: absolute;
   content: '';
-  background: url(../image/icon/testimonial-01.png);
+  background: url(../images/product/quite.png);
   height: 175px;
   width: 33px;
   top: 30px;
@@ -11935,6 +11938,7 @@ background:linear-gradient(0deg, rgba(209, 201, 205, 0.103), rgba(230, 224, 227,
 .test-cont {
   text-align: center;
   margin: auto;
+  z-index: 555;
 }
 .test-cont img {
   display: inline-block;
@@ -14498,6 +14502,9 @@ justify-content: space-between;*/
 /*--
     21. Contact css
 -----------------------*/
+.page-content{
+  background-color: #EDE5F8;
+}
 .contact-form-info {
   padding: 20px 50px 20px 0;
 }
